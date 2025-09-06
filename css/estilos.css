@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 768px;
+    margin: 40px auto;
+    background-color: hsl(135, 98%, 84%);
+    color: hsl(135, 98%, 10%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+h1{
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#cajaTexto{
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: hsl(135, 98%, 16%);
+    color: hsl(135, 98%, 80%);
+    font-size: 32px;
+}
