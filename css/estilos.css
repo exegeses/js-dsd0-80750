@@ -21,3 +21,31 @@ h1{
     color: hsl(135, 98%, 80%);
     font-size: 32px;
 }
+
+#caja{
+    width: 180px;
+    height: 180px;
+    background-color: #999;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 16px;
+    color: white;
+    transition: 500ms;
+}
+/* #caja:hover{
+    background-color: #f60;
+    rotate: 45deg;
+} */
+
+nav a{
+    background-color: hsl(197, 71%, 73%);
+    padding: 8px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: hsl(135, 98%, 10%);
+    border: 1px solid #fff;
+    transition: 500ms;
+}
+nav a:hover{
+    background-color: hsl(197, 71%, 80%);
+}

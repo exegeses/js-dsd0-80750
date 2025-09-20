@@ -14,4 +14,4 @@
 > Podemos re escribir el DOM
 > Podemos modificar características o atributos de un elemento
 > Podemos modificar el contenido de un elemento
-> Podemos crear elementos "ha pedido"
+> Podemos crear elementos "a pedido"
