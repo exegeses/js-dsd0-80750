@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Nunito;
+    font-weight: 300;
+    font-size: 2em;
+}
+header{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+    #switcher img{
+        /* width: 32px;*/
+        vertical-align: top;
+    }
+    #switcher span{
+        font-size: 40px;
+    }
+
+main{
+    width: 1024px;
+    margin: 32px auto;
+}
+pre{
+    margin: 32px 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}

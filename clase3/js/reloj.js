@@ -32,7 +32,8 @@ function reloj()
     }
     console.log('segundos:', segundos)
 
-    cajaTexto.textContent = horas +':'+ minutos +':'+ segundos
+    //cajaTexto.textContent = horas +':'+ minutos +':'+ segundos
+    cajaTexto.textContent = `${horas}:${minutos}:${segundos}`
 }
 
 // Invocamos la función
