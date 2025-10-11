@@ -14,7 +14,9 @@ h1{
     margin-bottom: 40px;
 }
 
-#cajaTexto{
+#cajaTexto,
+#cajaTexto2
+{
     padding: 12px 24px;
     border-radius: 8px;
     background-color: hsl(135, 98%, 16%);

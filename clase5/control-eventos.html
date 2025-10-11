@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestión de control de eventos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <h1>gestión de control de eventos</h1>
+    <h2>
+        como atributo de un objeto
+    </h2>
+    algunos son: 
+    <ul>
+        <li>objeto.onclick</li>
+        <li>objeto.onmouseover</li>
+        <li>objeto.onmouseout</li>
+        <li>objeto.oncontextmenu</li>
+    </ul>
+    <span id="cajaTexto">reposo</span>
+    <p>
+        Es bastante práctico a la hora de escribir el código sólo tiene un pequeño problema que la sobre escritura
+        (si mi código está bien escrito no es necesariamente un problema)
+    </p>
+
+    <h2>adjuntando EventListener</h2>
+    <pre>
+        objeto.addEventListener
+                (
+                    'evento',
+                    acción
+                )
+    </pre>
+    <p>
+        Es un poco más incómodo de mantener y de escribir pero no tiene el problema de la sobre escritura
+        (si mi código está bien escrito no es necesariamente un problema)
+    </p>
+    <span id="cajaTexto2">reposo</span>
+
+    <script src="js/control-eventos.js"></script>
+</body>
+</html>
