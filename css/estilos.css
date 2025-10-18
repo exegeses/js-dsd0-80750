@@ -52,3 +52,22 @@ nav a:hover{
     background-color: hsl(197, 71%, 80%);
 }
 
+#contenedor
+    {
+        padding: 12px 24px;
+        border-radius: 16px;
+        background-color: hsl(135, 98%, 16%);
+        color: hsl(135, 98%, 80%);
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #contenedor img{
+            filter: invert();
+            cursor: pointer;
+            transition: 500ms;
+    }
+    #contenedor img:hover{
+            scale: 1.3;
+    }
